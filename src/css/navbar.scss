@@ -1,0 +1,115 @@
+.navbar {
+  background-color: #2d446e;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  background-color: #2d446e;
+  color: white;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.hamburger-menu {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.hamburger-menu img {
+  height: 30px;
+  width: 20px;
+}
+
+.logo {
+  font-family: "Montserrat";
+  font-size: 24.22px;
+  font-weight: 700;
+  line-height: 29.52px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.search-container {
+  position: relative;
+}
+
+.search-icon {
+  background-color: #2d446e;
+  border: none;
+}
+
+.notifications {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: white;
+  position: relative;
+  cursor: pointer;
+}
+
+.notification-badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 12px;
+}
+
+.user-avatar {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.dropdown {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.notifications-dropdown {
+  right: 50px;
+}
+
+.user-dropdown p {
+  margin: 0;
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+.user-dropdown p:hover {
+  background-color: #f1f1f1;
+}
